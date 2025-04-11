@@ -27,3 +27,9 @@ body {
   transform: scale(1.03);
   transition: 0.3s ease;
 }
+
+/* works */
+.container-work {
+  margin: 0 10rem;
+  padding: 3rem 0;
+}

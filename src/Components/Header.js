@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Header = () => {
   return (
@@ -18,7 +19,9 @@ const Header = () => {
 
       <div className="mt-1 mr-8 text-base font-semibold text-gray-500 topic-font">
         <ul className="flex gap-8 sub-titles ">
-          <li>Works</li>
+          <Link to="/">
+            <li>Works</li>
+          </Link>
           <li>Resume</li>
           <li>LinkedIn</li>
           <li>Git Hub</li>
